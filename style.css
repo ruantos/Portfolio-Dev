@@ -50,6 +50,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-right: 0px;
+    margin-bottom: 50px;
 }
 
 .main_section_text{
@@ -85,5 +86,51 @@ body{
     height: 50px;
     width: 175px;
     border-radius: 30px;
+}
+
+.footer{
+    border-top: 0.3px solid white;
+ 
+}
+
+.footer_text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+
+}
+
+.footer_text_div{
+   border: 0.3px solid white; 
+   border-radius: .25rem;
+   height: 200px;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.footer_text_img{
+    height: 80px;
+}
+
+.footer_direitos{
+    border-top: 0.3px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.footer_direitos_text{
+   display: flex; 
+   align-items: center;
+}
+.footer_direitos_faculdade{
+    display: flex;
+    align-items: center;
+}
+#footer_direitos_img{
+    height: 30px
 }
 

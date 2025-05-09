@@ -46,6 +46,7 @@ body{
 .main{
     display: flex;
     border-top: 0.3px solid #00ffa3;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -86,6 +87,10 @@ body{
     height: 50px;
     width: 175px;
     border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); 
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 800;
+
 }
 
 .footer{
@@ -111,7 +116,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #0f2f4f;
+    background-color: #0f2f4f; 
+    font-family: "JetBrains Mono";
+    font-size: 12px;
+
  
 
 }
@@ -137,6 +145,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    font-family: "JetBrains Mono"
 }
 .footer_direitos_text{
    display: flex; 

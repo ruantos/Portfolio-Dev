@@ -4,48 +4,48 @@
 
 
 *{
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body{
-  background: linear-gradient(to left, #220087, #080021);
-  font-size: 100;
+    background: linear-gradient(to left, #001F3F, #080021); 
+    font-size: 100;
 }
 
 .header{
-  padding: 7px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 20px;
-  align-items: center;
+    padding: 7px;
+    background-color: #0f2f4f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   
 }
 
 .header_image{
-  height: 35px; 
+    height: 35px; 
+    margin-left: 10px;
 }
 
 .header_menu{
-  display: flex;
-  gap: 35px;
+    display: flex;
+    gap: 35px;
+    margin-right: 25px;
 }
 
 .header_menu_anchor{
-  font-family: "JetBrains Mono";
-  color: white;
-  font-size: 15px;
-  font-weight: 500;
+    font-family: "JetBrains Mono";
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .main{
     display: flex;
-    border-top: 0.3px solid white;
+    border-top: 0.3px solid #00ffa3;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +56,7 @@ body{
 .main_section_text{
     display: flex;
     flex-direction: column;
-    gap: 35px; 
+    gap: 30px; 
     padding-left: 75px;
     align-items: center;
 }
@@ -89,7 +89,7 @@ body{
 }
 
 .footer{
-    border-top: 0.3px solid white;
+/*    border-top: 0.3px solid #00ffa3; */
  
 }
 
@@ -103,34 +103,58 @@ body{
 }
 
 .footer_text_div{
-   border: 0.3px solid white; 
-   border-radius: .25rem;
-   height: 200px;
-   width: 200px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-around;
+    border: 0.3px solid #00ffa3; 
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0f2f4f;
+ 
+
+}
+#autodidata{
+   color: #00c86f; 
+}
+#qualificado{
+    color: #6bd1ff;
+}
+#proativo{
+    color: #8dc137;
+}
+#teamplayer{
+    color: #6f68ea;
 }
 .footer_text_img{
     height: 80px;
+
 }
 
 .footer_direitos{
-    border-top: 0.3px solid white;
+    border-top: 0.3px solid #00ffa3;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-between; 
 }
 .footer_direitos_text{
    display: flex; 
    align-items: center;
+   color: white;
+   font-size: 11px;
+   margin-left: 20px;
+
 }
 .footer_direitos_faculdade{
     display: flex;
     align-items: center;
+    margin-right: 20px;
+    color: white;
+    font-size: 11px;
 }
 #footer_direitos_img{
-    height: 30px
+    height: 30px;
+    margin-right: 10px;
 }
 

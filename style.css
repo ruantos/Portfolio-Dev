@@ -28,6 +28,8 @@ html, body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 0.3px solid #00ffa3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   
 }
 
@@ -51,8 +53,6 @@ html, body{
 
 .main{
     display: flex;
-    border-top: 0.3px solid #00ffa3;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -176,17 +176,40 @@ html, body{
 
 .profile{
     width: 300px;
+    margin: 50px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
     overflow-wrap: break-word;   
+}
+.nome_dev{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+
+
+
+}
+.main_intro_p{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #808080;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+
 }
 
 .profile_img{
     border-radius: 100%;
     height: 200px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    border: 0.3px solid black;
+
 
     
 }
@@ -194,10 +217,20 @@ html, body{
 .main_intro_tools{
     display: flex;
     flex-direction: row;
+    border-bottom: 0.3px solid white;
 
 }
 
 .main_intro_skills{
     height: 40px;
     margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.main_intro_phrase{
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    margin: 20px;
 }

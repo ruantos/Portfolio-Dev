@@ -179,6 +179,7 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 20px;
     overflow-wrap: break-word;   
 }
@@ -188,4 +189,15 @@ html, body{
     height: 200px;
 
     
+}
+
+.main_intro_tools{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main_intro_skills{
+    height: 40px;
+    margin-right: 5px;
 }

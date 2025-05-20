@@ -49,12 +49,18 @@ html, body{
     color: white;
     font-size: 15px;
     font-weight: 500;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+.header_menu_anchor:hover{
+    border-bottom: 1.9px solid #00ffa3;
 }
 
 .main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     padding-right: 0px;
     margin-bottom: 50px;
@@ -63,7 +69,6 @@ html, body{
 .main_section_text{
     display: flex;
     flex-direction: column;
-    gap: 30px; 
     padding-left: 75px;
     align-items: center;
 }
@@ -78,13 +83,14 @@ html, body{
 .main_h1{
     font-family: "Chakra Petch", sans-serif;
     font-size: 75px;
+    color: white;
 }
 
 .main_p{
   font-family: "JetBrains Mono";
-  color: white;
+  color: #808080;
   font-size: 17px;
-  font-weight: 400; 
+  font-weight: 500; 
 }
 
 .main_button{
@@ -92,11 +98,19 @@ html, body{
     border: none;
     height: 50px;
     width: 175px;
+    border: 0.01px solid white;
     border-radius: 30px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); 
     font-family: "Chakra Petch", sans-serif;
     font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
 
+
+.main_button:hover{
+    background-color: #00995d;
 }
 
 .footer_text{
@@ -125,7 +139,7 @@ html, body{
 
 }
 #autodidata{
-   color: #00c86f; 
+   color: #ff666b; 
 }
 #qualificado{
     color: #6bd1ff;
@@ -160,7 +174,7 @@ html, body{
     display: flex;
     align-items: center;
     margin-right: 20px;
-    color: white;
+    color: #808080;
     font-size: 11px;
 }
 #footer_direitos_img{

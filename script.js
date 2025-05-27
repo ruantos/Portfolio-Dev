@@ -1,13 +1,15 @@
 function callWhatsapp(dev_num, dev_name){
-    
-    const name;
-    const contact;
-    const message;
-    const my_number = dev_num;
-    const my_name = dev_name
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('mensagem').value;
 
-    contactor_msg = "Olá, ${my_name}. Eu me chamo ${name}. %0A%0ASegue o motivo do contato: ${message}"
-    const url = "https://wa.me/${my_number}?text=${encodeURIComponent(contactor_msg)}";
-    window.open(urlWhatsApp, '_blank');
+    const my_number = dev_num;
+    const my_name = dev_name;
+
+    const contactor_msg = `Olá, ${my_name}. Eu me chamo ${nome}.%0A%0ASegue o motivo do contato: ${mensagem}`;
+
+    const url = `https://wa.me/${my_number}?text=${encodeURIComponent(contactor_msg)}`;
+
+    window.open(url, '_blank');
     document.getElementById('whatsappForm').reset();
 }
